@@ -694,6 +694,7 @@ table th {
     height: 100vh; /* Zorgt ervoor dat de container de volledige hoogte van de pagina heeft */
     padding-left: 50px;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 
 
