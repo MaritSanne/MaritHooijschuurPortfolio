@@ -218,8 +218,9 @@ nav ul li a:hover::after {
     justify-content: space-between;
     padding-right: 200px;
     background: #dfcec1;
-    padding-top: 40px;
+    padding-top: 65px;
     padding-bottom: 50px;
+    
 }
 
 .intro-projecten {
