@@ -18,7 +18,7 @@ nav {
 h1 {
     font-size: 48px;
     margin: 10px 0;
-    color: #B97467;
+    color: #5271ff;
     margin-right: 10px;
     font-weight: 200;
 }
@@ -30,7 +30,7 @@ h2 {
     margin-left: 50px;
     margin-top: 25px;
     margin-bottom: 15px;
-    color: #B97467;
+    color: #5271ff;
 }
 
 h3 {
@@ -77,7 +77,7 @@ header {
     font-size: 24px;
     font-weight: bold;
     font-family: "Georgia", serif;
-    color: #B97467;
+    color: #5271ff;
 }
 
 /* Menu standaard horizontaal */
@@ -110,9 +110,9 @@ nav ul li a::after {
     bottom: 0;
     width: 100%;
     height: 2px;
-    background-color: #B97467;
+    background-color: #5271ff;
     transform: scaleX(0);
-    transform-origin: left;
+    transform-origin: right;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -170,7 +170,7 @@ nav ul li a:hover::after {
 
 .knoppen {
     text-decoration: none;
-    background: #B97467;
+    background: #5271ff;
     color: white;
     padding: 15px 25px;
     display: inline-block;
@@ -181,11 +181,26 @@ nav ul li a:hover::after {
 .knoppen:hover {
     padding: 18px 28px;
     transition-duration: 0.5s;
-    background: #C17D71;
+    background: #5271ff;
 }
 
 /*eind navigatienbalk, logo, knoppen*/
+.knoppencmd {
+    text-decoration: none;
+    background: #5271ff;
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
 
+.knoppencmd:hover {
+    padding: 18px 28px;
+    transition-duration: 0.5s;
+    background: #5271ff;
+}
 
 /*tekst naast foto en button*/
 .intro-home {
@@ -193,7 +208,7 @@ nav ul li a:hover::after {
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    background: #dfcec1;
+    background: #f1ede4;
 }
 
 
@@ -217,25 +232,23 @@ nav ul li a:hover::after {
     align-items: center;
     justify-content: space-between;
     padding-right: 200px;
-    background: #dfcec1;
-    padding-top: 65px;
+    background: #f1ede4;
+    padding-top: 40px;
     padding-bottom: 50px;
-    
 }
 
 .intro-projecten {
     align-items: center;
     justify-content: space-between;
     padding-right: 200px;
-    background: #dfcec1;
-    padding-top: 65px;
+    background: #f1ede4;
 }
 
 
 .lets-connect {
     text-align: center;
     padding: 50px;
-    background: #dfcec1;
+    background: #f1ede4;
 }
 
 
@@ -252,7 +265,7 @@ nav ul li a:hover::after {
 }
 
 .tijdlijn-home h3 {
-    color: #C17D71;
+    color: #5271ff;
 }
 
 .timeline-item {
@@ -264,7 +277,7 @@ nav ul li a:hover::after {
 
 .tijdlijn-icon {
     font-size: 2rem;
-    background: #dfcec1;
+    background: #f1ede4;
     width: 60px;
     height: 60px;
     display: flex;
@@ -293,7 +306,7 @@ nav ul li a:hover::after {
 /*begin footer*/
 
 footer {
-    background-color: #C17D71;
+    background-color: #5271ff;
     color: white;
     padding: 40px 50px;
     text-align: center;
@@ -313,7 +326,7 @@ footer {
     font-size: 24px;
     font-weight: bold;
     font-family: "Georgia", serif;
-    color: #dfcec1;
+    color: #f1ede4;
     margin-bottom: 50px;
 }
 
@@ -331,7 +344,7 @@ footer {
 
 .footer-contact a:hover {
     text-decoration: none;
-    color: #dfcec1;
+    color: #f1ede4;
     text-decoration: underline;
 }
 
@@ -340,7 +353,7 @@ footer {
 .footer-socials h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #dfcec1;
+    color: #f1ede4;
 }
 
 .footer-contact p,
@@ -364,7 +377,7 @@ footer {
 
 .footer-nav ul li a:hover,
 .footer-socials a:hover {
-    color: #dfcec1;
+    color: #f1ede4;
 }
 
 .footer-socials a {
@@ -375,7 +388,7 @@ footer {
 
 .footer-bottom {
     margin-top: 30px;
-    color: #dfcec1;
+    color: #f1ede4;
 }
 
 .footer-bottom p {
@@ -389,7 +402,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    background: #dfcec1;
+    background: #f1ede4;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -503,7 +516,7 @@ footer {
 
 
 table th {
-    color: #C17D71;
+    color: #5271ff;
     font-size: larger;
 }
 
@@ -574,71 +587,6 @@ table th {
 }
 
 
-
-
-
-/* begin over mij pagina */
-.skills {
-    text-align: center;
-    padding: 15px 0;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 0px;
-}
-
-.skills h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-    font-weight: 200;
-    color:#B97467;
-    text-decoration: underline;
-}
-
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexibele grid layout */
-    gap: 40px;
-    justify-items: center;
-    padding: 0 20px;
-}
-
-.skill {
-    background: fff;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-    max-width: 300px;
-    width: 100%;
-}
-
-.skill:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.skill span {
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: #4CAF50;
-}
-
-.skill h3 {
-    margin-top: 15px;
-    font-size: 24px;
-    color: #333;
-    font-weight: 500;
-}
-
-.skill p {
-    font-size: 16px;
-    color: #666;
-    margin-top: 10px;
-    line-height: 1.6;
-}
-
-/* eind over mij pagina */
 .ervaring {
     padding: 50px 20px;
     background-color: #fff;
@@ -650,7 +598,7 @@ table th {
     margin-bottom: 3px;
     font-weight: 200;
     text-decoration: underline;
-    color:#B97467;
+    color:#5271ff;
 }
 
 .ervaring-container {
@@ -680,7 +628,7 @@ table th {
 .ervaring-item h3 {
     font-size: 24px;
     font-weight: 300;
-    color:#B97467;
+    color:#5271ff;
 }
 
 
@@ -689,7 +637,7 @@ table th {
 
 
 .contact-container {
-    background: #dfcec1;
+    background: #f1ede4;
     padding: 20px;
     border-radius: 0px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -729,7 +677,7 @@ textarea {
 }
 
 button {
-    background-color: #B97467;
+    background-color: #5271ff;
     color: white;
     padding: 15px 25px;
     border: none;
@@ -740,7 +688,7 @@ button {
 }
 
 button:hover {
-    background-color: #8c5b4e;
+    background-color: #233ba5;
 }
 
 
